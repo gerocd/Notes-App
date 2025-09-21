@@ -2,7 +2,7 @@ import { config } from "dotenv";
 
 config()
 
-export const PORT = process.env.PORT || 3306 // puerto servidor
+export const PORT = process.env.PORT || 3000 // puerto servidor
 
 export const DB_USER = process.env.DB_USER || 'root'
 export const DB_PASSWORD = process.env.DB_PASSWORD || '123456'

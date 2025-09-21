@@ -1,4 +1,7 @@
-FROM node:16
+FROM node:18-alpine
+
+# Instalar curl para healthcheck
+RUN apk add --no-cache curl
 
 WORKDIR /backend
 
